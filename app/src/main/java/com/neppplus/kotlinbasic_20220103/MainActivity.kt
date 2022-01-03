@@ -41,6 +41,16 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btnMessageTextView.setOnClickListener {
+
+//            1. 입력된 문구를 받아서 저장해야함(input같은 동작이 필요해
+            val inputMessage = edtMessage.text.toString()
+
+//            2. txtMessage의 문구로 inputMessage 반영
+            txtMessage.text = "${inputMessage} 입력됨"
+
+        }
+
 
     }
 }
