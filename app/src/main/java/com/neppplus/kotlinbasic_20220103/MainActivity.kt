@@ -28,5 +28,14 @@ class MainActivity : AppCompatActivity() {
 
 
         }
+
+        btnMessageToast.setOnClickListener {
+
+            Toast.makeText(this, "~~내용이 입력됨", Toast.LENGTH_SHORT).show()
+
+
+        }
+
+
     }
 }
