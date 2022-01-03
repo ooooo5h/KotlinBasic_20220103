@@ -24,7 +24,8 @@ class MainActivity : AppCompatActivity() {
         btnToast.setOnClickListener {
 
 //            토스트로 "안녕하세요" 문장 띄우기
-            Toast.makeText(this, "안녕하세요.", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "코틀린은 참 신기하군", Toast.LENGTH_SHORT).show()
+
 
         }
     }
